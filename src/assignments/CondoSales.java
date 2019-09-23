@@ -30,8 +30,6 @@ public class CondoSales {
             garageSelection(price, viewChosen);
         }
         else{
-            price = 0;
-            viewChosen = "nothing, you messed up";
             System.out.println("You messed up a simple task, idiot. \nLuckily we won't charge you anything, dork.");
         }
     }
