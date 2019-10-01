@@ -33,5 +33,15 @@ public class RockPaperScissors {
             else if(opponentGuess == 3)
                 winResult = "Rock breaks scissors, you win.";
         }
+        else if(yourGuess == 3){
+            if(opponentGuess == 1)
+                winResult = "Rock breaks scissors, you lose.";
+            else if(opponentGuess == 2)
+                winResult = "Scissors cuts paper, you win.";
+            else if(opponentGuess == 3)
+                winResult = "You both tied.";
+
+        }
+        System.out.println(winResult);
     }
 }
